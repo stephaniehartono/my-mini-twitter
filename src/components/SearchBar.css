@@ -1,0 +1,40 @@
+.SearchBar{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.SearchBar .searchicon img{
+  width: 15px;
+  height: 15px;
+}
+
+.SearchBar .searchuser{
+  display: flex;
+  justify-content: center;
+}
+
+.SearchBar .searchinput{
+  width: 15vw;
+  height: 40px;
+  border-radius: 0 50px 50px 0;
+
+  border: solid black 2px;
+  border-left: none;
+
+  padding-right: 15px;
+}
+
+.SearchBar .searchicon{
+  width: 40px;
+  height: 40px;
+  border-radius: 50px 0 0 50px;
+
+  border: solid black 2px;
+  border-right: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

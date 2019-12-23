@@ -1,0 +1,29 @@
+.Tweet{
+
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.tweetprofile .profilepic{
+  width: 70px;
+  height: 70px;
+  border-radius: 70px;
+  background-color: rgb(209, 209, 209);
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.tweetprofile{
+  display: flex;
+  align-items: center;
+}
+
+.profiletext{
+  margin-left: 10px;
+}
+
+.Tweet .message{
+  margin-top: 10px;
+}

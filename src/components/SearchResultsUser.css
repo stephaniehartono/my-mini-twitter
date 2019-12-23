@@ -1,0 +1,23 @@
+.SearchResultsUser{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  height: 80px;
+
+  padding-left: 20px;
+
+  user-select:none;
+  cursor: pointer;
+}
+
+.SearchResultsUser .profilepic{
+  width: 50px;
+  height: 50px;
+  border-radius: 70px;
+  background-color: rgb(190, 190, 190);
+}
+
+.SearchResultsUser .textcontainer{
+  padding-left: 10px;
+}

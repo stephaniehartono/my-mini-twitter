@@ -1,0 +1,26 @@
+App
+  |--Header (username passed to header by function)
+  |    |--Logo
+  |    |--SearchBar (username)
+  |    |--SearchResults
+  |          |--SearchResultsUser[]
+  |             |--ProfilePhoto
+  |             |--Name
+  |             |--Username (name from search)
+  |--Content
+        |--Feed
+        |     |--Tweet[]
+        |           |--ProfilePhoto
+        |           |--Name
+        |           |--Username
+        |           |--Message
+        |           |--Attachment[]
+        |--Profile (received username)
+        |    |--ProfilePhoto
+        |    |--Name
+        |    |--Username
+        |    |--Following
+        |    |--Followers
+        |
+        |--TweetHeader
+        |--SearchTweet (keyword)

@@ -1,0 +1,71 @@
+.Content{
+  display: flex;
+  justify-content: center;
+}
+
+.content-container{
+  width: 50vw;
+}
+
+.tweetheader{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.Content .searchbar{
+  display: flex;
+  justify-content: center;
+
+  margin-left: 30px;
+}
+
+.Content .searchinput{
+  width: 15vw;
+  height: 40px;
+  border-radius: 0;
+
+  border: solid black 2px;
+  border-left: none;
+  border-right: none;
+
+  padding-right: 15px;
+}
+
+.Content .searchicon{
+  width: 40px;
+  height: 40px;
+  border-radius: 50px 0 0 50px;
+
+  border: solid black 2px;
+  border-right: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Content .searchdelete{
+  width: 40px;
+  height: 40px;
+  border-radius: 0 50px 50px 0;
+
+  border: solid black 2px;
+  border-left: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.Content img{
+  width: 15px;
+  height: 15px;
+}
+
+.Content .searchdelete img{
+  width: 10px;
+  height: 10px;
+}
